@@ -1,0 +1,7 @@
+def kineticEnergy(mass, velocity):
+    return 0.5*mass*velocity**2
+
+mass = 5
+velocity = 100
+
+print(f"Kinetisk energi = {kineticEnergy(mass, velocity)}")
