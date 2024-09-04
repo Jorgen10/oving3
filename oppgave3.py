@@ -1,6 +1,6 @@
 import turtle
 
-def drawHexagon(turtle, x, y, sidelength):
+def drawHexagon(turtle: turtle, x: float, y: float, sidelength: int) -> None:
     turtle.up()
     turtle.goto(x, y)
     turtle.down()

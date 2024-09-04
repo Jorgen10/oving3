@@ -1,6 +1,6 @@
 import turtle
 
-def drawHexagon(sidelength):
+def drawHexagon(sidelength: int) -> None:
     turtle.down()
     for i in range(6):
         turtle.forward(sidelength)

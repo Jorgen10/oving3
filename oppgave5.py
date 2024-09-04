@@ -1,8 +1,5 @@
-from math import log
+from oppgave4 import f
 from lib import parseFloat
-
-def f(m, n):
-    return m*log(m) + n*log(n)
 
 m = parseFloat("Skriv inn m: ")
 n = parseFloat("Skriv inn n: ")
